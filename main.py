@@ -5,7 +5,7 @@ from sumofdigit import SumOfDigit
 from reversnum import ReversNum
 from factorial import *
 from Fibonacci_series import FeboItrative, FiboRecursive
-
+from LargerstSmallest import *
 # print("Printing the even odd number")
 # result=EvenOdd(10)
 
@@ -39,6 +39,11 @@ from Fibonacci_series import FeboItrative, FiboRecursive
 # FactIter=FactItertion(5)
 # print("Factional Iteration :",FactIter)
 
-print("Print Fibonacci Series ")
-print(f"Print Fibonachiseris using Iterative {FeboItrative(10)}")
-print(FiboRecursive(10))
+# print("Print Fibonacci Series ")
+# print(f"Print Fibonachiseris using Iterative {FeboItrative(10)}")
+# print(FiboRecursive(10))
+
+
+print("Printing the min value in the list :")
+print(f"Min value : {findSmallerst([12,3,45,67,1,23,2,])}")
+print(f"Max value : {findLargerst([12,3,45,67,1,23,2,])}")
