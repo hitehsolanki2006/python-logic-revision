@@ -1,4 +1,4 @@
-from EvenOdd import EvenOdd
+from EvenOdd import *
 from Prime import *
 from Nnumber import n_number
 from sumofdigit import SumOfDigit
@@ -6,6 +6,10 @@ from reversnum import ReversNum
 from factorial import *
 from Fibonacci_series import FeboItrative, FiboRecursive
 from LargerstSmallest import *
+from Pelindrom import isPalidrome
+from CountVowelsConsonants import *
+
+
 # print("Printing the even odd number")
 # result=EvenOdd(10)
 
@@ -19,6 +23,7 @@ from LargerstSmallest import *
 # print("The prime number are : ", nprimenumber)
 
 # print("Check is it number is prime or not ")
+
 # result=isprime(9)
 # if result == True :
 #   print("Number is prime")
@@ -44,6 +49,18 @@ from LargerstSmallest import *
 # print(FiboRecursive(10))
 
 
-print("Printing the min value in the list :")
-print(f"Min value : {findSmallerst([12,3,45,67,1,23,2,])}")
-print(f"Max value : {findLargerst([12,3,45,67,1,23,2,])}")
+# print("Printing the min value in the list :")
+# print(f"Min value : {findSmallerst([12,3,45,67,1,23,2,])}")
+# print(f"Max value : {findLargerst([12,3,45,67,1,23,2,])}")
+
+
+# print("Count Even Odd Number in list")
+# print(countEvenOdd([1,24,435,1,56,13,46]))
+
+# print("CHeck Number is pelindrome or not ")
+# print(isPalidrome(154))
+# print(isPalidrome(121))
+
+print(vowelsconsonants("Hello I am Hitesh Solanki"))
+
+
