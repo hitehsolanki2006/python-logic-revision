@@ -8,6 +8,7 @@ from Fibonacci_series import FeboItrative, FiboRecursive
 from LargerstSmallest import *
 from Pelindrom import isPalidrome
 from CountVowelsConsonants import *
+from SwepToNum import *
 
 
 # print("Printing the even odd number")
@@ -61,6 +62,9 @@ from CountVowelsConsonants import *
 # print(isPalidrome(154))
 # print(isPalidrome(121))
 
-print(vowelsconsonants("Hello I am Hitesh Solanki"))
+# print(vowelsconsonants("Hello I am Hitesh Solanki"))
 
+print("Swap two Number")
+print(swepUsethirdVar(10,15))
+print(swepWithoutthirdVar(11,55))
 

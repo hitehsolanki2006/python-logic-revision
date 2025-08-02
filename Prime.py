@@ -12,4 +12,5 @@ def Nprime(n):
   for num in range(2, n + 1):
     if isprime(num):
       primelist.append(num)
+      
   return primelist
