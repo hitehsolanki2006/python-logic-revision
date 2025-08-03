@@ -9,6 +9,7 @@ from LargerstSmallest import *
 from Pelindrom import isPalidrome
 from CountVowelsConsonants import *
 from SwepToNum import *
+from BinarySearch import binarySearch
 
 
 # print("Printing the even odd number")
@@ -64,7 +65,11 @@ from SwepToNum import *
 
 # print(vowelsconsonants("Hello I am Hitesh Solanki"))
 
-print("Swap two Number")
-print(swepUsethirdVar(10,15))
-print(swepWithoutthirdVar(11,55))
+# print("Swap two Number")
+# print(swepUsethirdVar(10,15))
+# print(swepWithoutthirdVar(11,55))
 
+
+list1 = [1, 3, 5, 7, 9, 11]
+num = 7
+print(binarySearch(num,list1))
